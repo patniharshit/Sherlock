@@ -1,0 +1,170 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-left: -20px;
+}
+.container {
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 0 10px;
+}
+/* Header */
+
+.header {
+    height: 700px;
+    text-align: left;
+    background: url(sherlock.jpg);
+    margin-top: -75px;
+    margin-left: -50px;
+    margin-right: 0px;
+}
+.header .container {
+    position: relative;
+    top: 200px;
+}
+.header h1 {
+    font-size: 72px;
+    line-height: 100px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    padding-right: 20px;
+    color: white;
+    text-align: left;
+}
+.header p {
+    font-weight: 500;
+    letter-spacing: 8px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+}
+.btn:hover {
+    background: #f9a72b;
+    cursor: pointer;
+    transition: background .5s;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+.nav {
+    background: black;
+    height: 80px;
+    width: 100%;
+}
+.nav ul {
+    height: 80px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+.nav ul li {
+    color: white;
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    list-style: none;
+    padding: 0 10px;
+    transition: background .5s;
+    font-size: 24px;
+    font-weight: 400;
+    margin-right: 40px;
+}
+.btn:hover,
+.nav ul li:hover {
+    background: #f9a72b;
+    cursor: pointer;
+    transition: background .5s;
+}
+/* Main */
+
+.main .container {
+    margin: 80px auto;
+     position: relative;
+}
+.main .container p,
+ol {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.icon {
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-right: 5px;
+    padding-bottom: 20px;
+}
+.icon li {
+    height: 70px;
+    width: 70px;
+    margin-right: 20px;
+    display: inline;
+    float: left;
+}
+/* Footer */
+
+.footer {
+    bottom: 0;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-left: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    height: 40px;
+}
+.main img {
+    width: 100%;
+}
+.container {
+    max-width: 928px;
+}
+.article-current {
+    margin: auto;
+    width: 60%;
+}
+#msg {
+    font-size: 16px;
+    color: black;
+    left: -40px;
+}
+.item-row {
+    background-color: #FFB375;
+    border-radius: 15px 50px 30px;
+    border: 2px solid #FF953D;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    display: inline;
+    margin: 20px;
+}
+.elem {
+    margin-top: 50px;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin-right: 40px;
+}
+.description-row {
+    padding: 20px;
+    background: #FFF4EB;
+    border-radius: 15px 50px 30px;
+    border: 1px solid #FF953D;
+    font-weight: 300;
+    margin-bottom: 20px;
+    display: none;
+}
+.background {
+    background-image: url(Newspaper1.jpg);
+}
